@@ -1,7 +1,10 @@
+
+/**
+ * This causes the platform to detect as "cordova desktop hybrid"
+ * even if no plugins are loaded. How do we disable web "cordova" platform?
+ */
 import '@capacitor/core';
 
-// ^-- This causes the platform to detect as "cordova desktop hybrid"
-// even if no plugins are loaded.
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
